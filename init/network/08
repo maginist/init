@@ -1,0 +1,1 @@
+pour trouver l'hebergeur de slash16.org, on utilise traceroute pour trouver le DNS cloudfront.net, donc Amazon Web Service

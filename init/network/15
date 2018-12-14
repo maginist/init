@@ -1,0 +1,1 @@
+Je ne peux pas faire pointer intra.42.fr sur l'adresse 46.19.122.85 car je n'ai pas les droits d'administrateurs, cependant on pourrait le faire en ouvrant le fichier /etc/hosts et en rajoutant : 46.19.122.85	intra.42.fr

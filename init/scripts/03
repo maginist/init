@@ -1,0 +1,16 @@
+echo "Do you want to push? (Make sure you have git install and you are in the right repository) (y/n)"
+read answer
+if [ "$answer" = "y" ]
+then
+	git add *
+	echo "which commit?"
+	read com
+	git commit -m "$com"
+	git push
+	echo '\033[01;34;1m DONE \033[m'
+elif [ "$answer" = "n" ]
+then
+	echo '\033[01;31;1m Why do you borow me in that case? \033[m'
+else
+	echo '\033[41;33;1m BAD MOVE, RETRY! \033[m'
+fi

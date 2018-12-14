@@ -1,0 +1,2 @@
+ifconfig -a | grep broadcast | rev | cut -d ' ' -f1 | rev
+ping broadcasthost | cut -d ' ' -f4 | cut -d ':' -f1

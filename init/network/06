@@ -1,0 +1,1 @@
+Pour recuperer le path complet du fichier dans lequel est ecrit l'adresse IP du serveur DNS que nous utilisons, il faut taper la commande : cat /etc/resolv.conf. Elle se trouve a la fin du fichier.
